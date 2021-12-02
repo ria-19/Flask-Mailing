@@ -1,0 +1,11 @@
+
+DROP TABLE IF EXISTS birthdays;
+
+CREATE TABLE birthdays (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    month NUMBER NOT NULL,
+    day NUMBER NOT NULL,
+	email TEXT NOT NULL
+);
+
